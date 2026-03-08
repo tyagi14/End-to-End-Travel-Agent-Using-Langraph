@@ -148,13 +148,3 @@ End-to-End-Travel-Agent-LangGraph/
 └── README.md                                                 # Project documentation
 ```
 
-## ⚠️ Important Notes
-
-- **SendGrid**: Your sender email must be **verified** in SendGrid or the email will return a 403 error
-- **SerpAPI**: The free tier has limited monthly searches — check your quota
-- **Memory**: The agent uses `MemorySaver` for in-session conversation memory (thread-based)
-- The graph uses `interrupt_before=['email_sender']` — email is only sent when explicitly triggered via the Gradio UI
-
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
