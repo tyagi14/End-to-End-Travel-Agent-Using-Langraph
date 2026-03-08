@@ -143,8 +143,6 @@ End-to-End-Travel-Agent-LangGraph/
 │
 ├── End_to_End_Travel_Agent_using_Langgraph_Practice.ipynb  # Main notebook
 ├── requirements.txt                                          # Python dependencies
-├── .env.example                                              # Example env variables
-├── .gitignore                                                # Files excluded from Git
 └── README.md                                                 # Project documentation
 ```
 
